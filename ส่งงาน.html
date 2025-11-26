@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css" >
+</head>
+
+<body class="bg-light">
+
+<div class="container">
+    <h2 class="mb-4">ฟอม</h2>
+
+    <form>
+        <div class="mb-3">
+            <label class="form-label">ชื่อ - นามสกุล</label>
+            <input type="text" class="form-control" placeholder="กรอกชื่อของคุณ">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">อีเมล</label>
+            <input type="email" class="form-control" >
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">ประเภทการติดต่อ</label>
+
+                <input type="checkbox" id="myCheckbox">
+                <label for="myCheckbox">คำถาม</label>
+                <input type="checkbox" id="myCheckbox">
+                <label for="myCheckbox">ข้อเสนอแนะ</label>
+                <input type="checkbox" id="myCheckbox">
+                <label for="myCheckbox">อื่นๆ</label>
+
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">ข้อความเพิ่มเติม</label>
+            <textarea class="form-control" rows="4" ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">ส่งข้อความ</button>
+    </form>
+</div>
+
+</body>
+</html>
